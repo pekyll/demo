@@ -17,6 +17,9 @@
 		a:hover {
 			text-decoration: underline;
 		}
+		.post-content p {
+			padding: 1rem 0;
+		}
 	</style>
 </head>
 <body>
