@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home page</title>
+
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400&display=swap" rel="stylesheet">
+	<style>
+		html, body {
+			font-family: 'Inconsolata', monospace;
+		}
+		a {
+			color: green;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body>
+	<div class="pl-2 pt-2 max-w-xl">
+
+		 <div class="flex space-x-5">
+	<a href="/" class="text-teal-500 hover:underline">Home</a>
+	<a href="https://github.com/bangnokia/pekyll" target="_blank" class="text-teal-500 hover:underline">Pekyll on github</a>
+</div>
+ 
+
+		<div class=" pt-5">
+			<ul>
+					<li class="mb-3">
+				<div class="text-sm">
+					<time class="text-gray-500">[2020-11-01]</time>
+					<span class="text-gray-700">hello, pekyll</span>
+				</div>
+				<a href="/posts/hello.html" class="text-red-500 hover:underline">welcome to pekyll</a>
+			</li>
+					<li class="mb-3">
+				<div class="text-sm">
+					<time class="text-gray-500">[2020-11-15]</time>
+					<span class="text-gray-700">demo, pekyll</span>
+				</div>
+				<a href="/posts/lorem-inspirum.html" class="text-red-500 hover:underline">Lorem ipsum dolor sit amet</a>
+			</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
+ 
