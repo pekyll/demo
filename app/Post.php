@@ -26,7 +26,7 @@ class Post
     }
     public function link()
     {
-        return "/posts/{$this->slug}.html";
+        return "posts/{$this->slug}.html";
     }
 
     public function attributes(): array
